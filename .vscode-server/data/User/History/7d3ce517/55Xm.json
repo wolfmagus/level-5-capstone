@@ -1,0 +1,8 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "workbench.colorTheme": "Monokai",
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 3,
+    "git.openRepositoryInParentFolders": "always"
+    
+}

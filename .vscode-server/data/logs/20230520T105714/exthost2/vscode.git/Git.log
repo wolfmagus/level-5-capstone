@@ -1,0 +1,14 @@
+2023-05-20 10:59:17.124 [info] Log level: Info
+2023-05-20 10:59:17.129 [info] Validating found git in: "git"
+2023-05-20 10:59:17.129 [info] Using git "2.25.1" from "git"
+2023-05-20 10:59:17.129 [info] > git rev-parse --show-toplevel [33ms]
+2023-05-20 10:59:17.129 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-20 10:59:17.129 [info] Open repository: /home/wolfmagus
+2023-05-20 10:59:17.129 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-20 10:59:17.129 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-20 10:59:17.129 [info] > git config --get commit.template [12ms]
+2023-05-20 10:59:17.129 [info] > git rev-parse --show-toplevel [9ms]
+2023-05-20 10:59:17.130 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [317ms]
+2023-05-20 10:59:17.548 [info] > git show --textconv :re-dev/react-practice/meme-gen/src/index.js [20ms]
+2023-05-20 10:59:17.565 [info] > git check-ignore -v -z --stdin [78ms]
+2023-05-20 10:59:17.569 [info] > git ls-files --stage -- /home/wolfmagus/re-dev/react-practice/meme-gen/src/index.js [23ms]

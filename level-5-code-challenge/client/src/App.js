@@ -4,10 +4,12 @@ import Bounty from "./components/Bounty.js"
 
 export default function App(){
     const [bounties, setBounties] = useState([])
-    
+    //App.js
     function getBounties(){
-        // 1. Make an axios request on the front end to get the list of bounties - frontend
-        
+        // 3. Make an axios request on the front end to get the list of bounties - frontend
+        axios.get("/bounties")
+            .then(res => setBounties(res.data))
+            .catch(err => console.log(err))
     }
 
     useEffect(() => {

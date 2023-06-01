@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "dependencies": {
+    "types-registry": "^0.1.536"
+  },
+  "devDependencies": {
+    "@types/object-assign": "^4.0.30",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/scheduler": "^0.16.1"
+  }
+}

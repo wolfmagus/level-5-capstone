@@ -1,0 +1,15 @@
+#check-box{
+    text-decoration: line-through;
+  }
+  
+  #times-new{
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .line-through{
+    text-decoration: line-through;
+  }
+  
+  .width{
+    width: 300px;
+  }

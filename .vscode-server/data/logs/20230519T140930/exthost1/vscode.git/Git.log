@@ -1,0 +1,16 @@
+2023-05-19 14:10:00.944 [info] Log level: Info
+2023-05-19 14:10:00.944 [info] Validating found git in: "git"
+2023-05-19 14:10:00.944 [info] Using git "2.25.1" from "git"
+2023-05-19 14:10:00.944 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-19 14:10:00.944 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-19 14:10:00.944 [info] Open repository: /home/wolfmagus
+2023-05-19 14:10:00.944 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-19 14:10:00.944 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-19 14:10:00.944 [info] > git config --get commit.template [8ms]
+2023-05-19 14:10:00.944 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-19 14:10:00.944 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-05-19 14:10:00.944 [info] > git show --textconv :re-dev/react-practice/meme-gen/src/styles.css [26ms]
+2023-05-19 14:10:00.944 [info] > git ls-files --stage -- /home/wolfmagus/re-dev/react-practice/meme-gen/src/styles.css [8ms]
+2023-05-19 14:10:01.072 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-19 14:10:01.276 [info] > git status -z -uall [866ms] (cancelled)
+2023-05-19 14:10:01.281 [info] > git check-ignore -v -z --stdin [6ms]

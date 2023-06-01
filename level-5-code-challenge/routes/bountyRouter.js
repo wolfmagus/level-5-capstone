@@ -13,7 +13,10 @@ const bounties = [
     
 //Routes
 //get all
-// 3. Send bounty data through server, back to the front end 
-
+//bountyRouter.js
+// 2. Send bounty data through server, back to the front end 
+bountyRouter.get("/", (req, res) =>{
+    res.send(bounties)
+})
 
 module.exports = bountyRouter

@@ -7,8 +7,9 @@ app.use(express.json())
 app.use(morgan("dev"))
 
 //routes
-// 2. Set up a route for bounties
-
+//server.js
+// 1. Set up a route for bounties
+app.use("/bounties", require("./routes/bountyRouter.js"))
 
 // Server Listen
 app.listen(9000, () =>{

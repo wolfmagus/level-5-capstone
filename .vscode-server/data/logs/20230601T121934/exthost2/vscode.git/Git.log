@@ -1,0 +1,17 @@
+2023-06-01 12:20:30.695 [info] Log level: Info
+2023-06-01 12:20:30.695 [info] Validating found git in: "git"
+2023-06-01 12:20:30.695 [info] Using git "2.25.1" from "git"
+2023-06-01 12:20:30.695 [info] > git rev-parse --show-toplevel [67ms]
+2023-06-01 12:20:30.695 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-06-01 12:20:30.695 [info] Open repository: /home/wolfmagus
+2023-06-01 12:20:30.695 [info] > git config --get commit.template [14ms]
+2023-06-01 12:20:30.695 [info] > git rev-parse --show-toplevel [112ms]
+2023-06-01 12:20:30.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [29ms]
+2023-06-01 12:20:31.161 [info] > git show --textconv :practice-projects/jeopardy/app.js [42ms]
+2023-06-01 12:20:31.170 [info] > git ls-files --stage -- /home/wolfmagus/practice-projects/jeopardy/app.js [11ms]
+2023-06-01 12:20:31.172 [info] > git check-ignore -v -z --stdin [84ms]
+2023-06-01 12:20:46.696 [info] > git status -z -uall [15952ms] (cancelled)
+2023-06-01 12:20:46.697 [info] > git check-ignore -v -z --stdin [2ms]
+2023-06-01 14:15:20.596 [info] > git config --get commit.template [131ms]
+2023-06-01 14:15:20.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2023-06-01 14:15:25.191 [info] > git status -z -uall [4510ms] (cancelled)

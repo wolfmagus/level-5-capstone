@@ -1,0 +1,18 @@
+2023-05-20 10:57:14.695 [info] 
+
+
+
+
+2023-05-20 10:57:14.764 [info] Extension host agent started.
+2023-05-20 10:57:15.060 [info] [127.0.0.1][c4049beb][ManagementConnection] New connection established.
+2023-05-20 10:57:16.072 [info] [127.0.0.1][a29d57de][ExtensionHostConnection] New connection established.
+2023-05-20 10:57:16.865 [info] [127.0.0.1][a29d57de][ExtensionHostConnection] <2703> Launched Extension Host Process.
+2023-05-20 10:57:26.429 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-20 10:58:50.729 [info] [127.0.0.1][c4049beb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-20 10:58:50.753 [info] [127.0.0.1][a29d57de][ExtensionHostConnection] <2703> Extension Host Process exited with code: 0, signal: null.
+2023-05-20 10:58:52.766 [info] [127.0.0.1][dbd47280][ManagementConnection] New connection established.
+2023-05-20 10:58:53.598 [info] [127.0.0.1][0a276f7f][ExtensionHostConnection] New connection established.
+2023-05-20 10:58:53.604 [info] [127.0.0.1][0a276f7f][ExtensionHostConnection] <2742> Launched Extension Host Process.
+2023-05-20 10:59:04.241 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-20 10:59:37.229 [info] [127.0.0.1][dbd47280][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-20 10:59:37.273 [info] [127.0.0.1][0a276f7f][ExtensionHostConnection] <2742> Extension Host Process exited with code: 0, signal: null.

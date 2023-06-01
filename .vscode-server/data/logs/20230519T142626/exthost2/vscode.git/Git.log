@@ -1,0 +1,13 @@
+2023-05-19 14:26:53.196 [info] Log level: Info
+2023-05-19 14:26:53.196 [info] Validating found git in: "git"
+2023-05-19 14:26:53.196 [info] Using git "2.25.1" from "git"
+2023-05-19 14:26:53.196 [info] > git rev-parse --show-toplevel [51ms]
+2023-05-19 14:26:53.196 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-19 14:26:53.196 [info] Open repository: /home/wolfmagus/Development
+2023-05-19 14:26:53.196 [info] > git config --get commit.template [36ms]
+2023-05-19 14:26:53.196 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2023-05-19 14:26:53.210 [info] > git status -z -uall [87ms]
+2023-05-19 14:26:53.228 [info] > git config --get commit.template [1ms]
+2023-05-19 14:26:53.243 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2023-05-19 14:26:53.341 [info] > git status -z -uall [94ms]
+2023-05-19 14:26:53.583 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>To Do List</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+    
+      <div class="title-bar">
+        <h1 class="title">To Do List</h1>
+      </div>
+
+      <div class="main">
+        <div class="title-bar">
+          <h3 class="title">Add Item</h3>
+        </div>
+        
+        <form name="addItem" id="add-todo">
+          <label class="label" for="title">Item name</label>
+          <input class="input" name="title" id="title" placeholder="title" required/>
+          <input class="input" name="price" id="price" placeholder="price" />
+          <input class="input" name="description" id="description" placeholder="description" />
+          <input class="input" name="imgUrl" id="imgUrl" placeholder="imgUrl"/>
+          <button>submit</button>
+      </form>
+
+      <div class="todos">
+        <div class="title-bar">
+            <h3 class="title">list of items</h3>
+        </div>
+        <hr>
+        <div id="items">
+                    
+        </div>
+    </div>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+      
+    </body>
+  </div>    
+</html>

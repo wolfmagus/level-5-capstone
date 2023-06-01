@@ -1,0 +1,24 @@
+2023-05-19 14:09:30.912 [info] 
+
+
+
+
+2023-05-19 14:09:30.992 [info] Extension host agent started.
+2023-05-19 14:09:31.561 [info] [127.0.0.1][8f9bf64a][ManagementConnection] New connection established.
+2023-05-19 14:09:33.033 [info] [127.0.0.1][d97a7217][ExtensionHostConnection] New connection established.
+2023-05-19 14:09:33.552 [info] [127.0.0.1][d97a7217][ExtensionHostConnection] <923> Launched Extension Host Process.
+2023-05-19 14:09:48.038 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-19 14:22:00.570 [info] Getting Manifest... ritwickdey.liveserver
+2023-05-19 14:22:00.770 [info] Installing extension: ritwickdey.liveserver
+2023-05-19 14:22:04.186 [info] Extension signature is verified: ritwickdey.liveserver
+2023-05-19 14:22:09.533 [info] Extracted extension to /home/wolfmagus/.vscode-server/extensions/.a0ff2d56-e574-4b45-b648-6b7d2bf5810e: ritwickdey.liveserver
+2023-05-19 14:22:09.561 [info] Renamed to /home/wolfmagus/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2023-05-19 14:22:09.564 [info] Extracting extension completed. ritwickdey.liveserver
+2023-05-19 14:22:09.577 [info] Extension installed successfully: ritwickdey.liveserver
+2023-05-19 14:22:39.632 [info] [127.0.0.1][8f9bf64a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-19 14:22:39.791 [info] [127.0.0.1][d97a7217][ExtensionHostConnection] <923> Extension Host Process exited with code: 0, signal: null.
+2023-05-19 14:25:03.301 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-19 14:25:16.424 [warning] No ptyHost heartbeat after 6 seconds
+2023-05-19 14:25:16.426 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/wolfmagus/.vscode-server/bin/b3e4e68a0bc097f0ae7907b217c1119af9e03435/out/vs/server/node/server.main.js:161:6339)
+    at process.emit (node:events:513:28)

@@ -1,0 +1,15 @@
+2023-05-20 10:52:25.012 [info] Log level: Info
+2023-05-20 10:52:25.013 [info] Validating found git in: "git"
+2023-05-20 10:52:25.013 [info] Using git "2.25.1" from "git"
+2023-05-20 10:52:25.013 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-20 10:52:25.013 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-20 10:52:25.013 [info] Open repository: /home/wolfmagus/bookworm
+2023-05-20 10:52:25.013 [info] > git rev-parse --show-toplevel [7ms]
+2023-05-20 10:52:25.013 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-20 10:52:25.013 [info] > git config --get commit.template [14ms]
+2023-05-20 10:52:25.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2023-05-20 10:52:25.013 [info] > git status -z -uall [8ms]
+2023-05-20 10:52:25.013 [info] > git config --get commit.template [17ms]
+2023-05-20 10:52:25.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2023-05-20 10:52:25.047 [info] > git status -z -uall [6ms]
+2023-05-20 10:52:25.506 [info] > git check-ignore -v -z --stdin [2ms]

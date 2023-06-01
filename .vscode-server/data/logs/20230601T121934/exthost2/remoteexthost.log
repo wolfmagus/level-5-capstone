@@ -1,0 +1,13 @@
+2023-06-01 12:20:29.165 [info] Extension host with pid 1402 started
+2023-06-01 12:20:29.200 [info] Lock '/home/wolfmagus/.vscode-server/data/User/workspaceStorage/5878d57c8632d3ade8ef32fc05737af9/vscode.lock': Lock acquired.
+2023-06-01 12:20:29.288 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-01 12:20:29.599 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-06-01 12:20:29.600 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-01 12:20:29.800 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-01 12:20:29.800 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-01 12:20:30.439 [info] Eager extensions activated
+2023-06-01 12:20:30.440 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-01 12:20:30.440 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-01 12:20:30.443 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2023-06-01 14:15:19.344 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2023-06-01 14:15:23.856 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000

@@ -1,0 +1,26 @@
+2023-05-19 14:08:23.032 [info] Log level: Info
+2023-05-19 14:08:23.032 [info] Validating found git in: "git"
+2023-05-19 14:08:23.032 [info] Using git "2.25.1" from "git"
+2023-05-19 14:08:23.032 [info] > git rev-parse --show-toplevel [70ms]
+2023-05-19 14:08:23.033 [info] > git rev-parse --show-toplevel [1ms]
+2023-05-19 14:08:23.042 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-19 14:08:23.252 [info] > git rev-parse --show-toplevel [204ms]
+2023-05-19 14:08:39.153 [info] > git rev-parse --show-toplevel [2ms]
+2023-05-19 14:08:39.157 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-05-19 14:08:39.173 [info] Open repository: /home/wolfmagus
+2023-05-19 14:08:39.189 [info] > git config --get commit.template [1ms]
+2023-05-19 14:08:39.218 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [21ms]
+2023-05-19 14:08:39.487 [info] > git show --textconv :re-dev/react-practice/meme-gen/src/styles.css [5ms]
+2023-05-19 14:08:39.490 [info] > git ls-files --stage -- /home/wolfmagus/re-dev/react-practice/meme-gen/src/styles.css [3ms]
+2023-05-19 14:08:39.733 [info] > git check-ignore -v -z --stdin [3ms]
+2023-05-19 14:08:53.949 [info] > git status -z -uall [14725ms] (cancelled)
+2023-05-19 14:08:53.950 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-19 14:09:13.058 [info] > git config --get commit.template [33ms]
+2023-05-19 14:09:13.077 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-05-19 14:09:13.679 [info] > git status -z -uall [594ms] (cancelled)
+2023-05-19 14:09:13.680 [info] > git check-ignore -v -z --stdin [3ms]
+2023-05-19 14:09:13.824 [info] > git config --get commit.template [1ms]
+2023-05-19 14:09:13.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2023-05-19 14:09:14.290 [info] > git status -z -uall [446ms] (cancelled)
+2023-05-19 14:09:14.292 [info] > git check-ignore -v -z --stdin [2ms]
+2023-05-19 14:09:14.524 [info] > git check-ignore -v -z --stdin [2ms]
