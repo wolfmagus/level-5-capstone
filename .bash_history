@@ -96,8 +96,6 @@ node app.js
 node app.js
 node app.js
 node app.js
-node app.js
-node app.js
 cd client/
 npx create-react-app .
 npm start
@@ -498,3 +496,5 @@ cd ..
 ls
 cd changing-themes/
 npx create-react-app .
+git status 
+git status 
